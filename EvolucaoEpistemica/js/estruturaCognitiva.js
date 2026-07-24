@@ -1,0 +1,1 @@
+class EstruturaCognitiva{constructor(){this.modelos=[new Modelo('constante')];this.historico=[];}gerarHipotese(){let m=new Modelo('aleatorio');m.mutar();this.modelos.push(m);}selecionar(avaliador,memoria){this.modelos.forEach(m=>avaliador.avaliar(m,memoria));this.modelos.sort((a,b)=>a.erro-b.erro);this.modelos=this.modelos.slice(0,5);}}
