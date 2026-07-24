@@ -1,0 +1,1 @@
+function executarCiclo(){ciclo();}function executarMil(){milCiclos();}function executarTeste(){for(let i=0;i<5;i++)milCiclos();alert('Teste de 5000 ciclos concluído');}
