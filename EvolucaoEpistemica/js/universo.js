@@ -1,0 +1,1 @@
+class Universo{constructor(){this.complexidade=3;}gerarEvento(){let entrada=Math.floor(Math.random()*20);let contexto=Math.floor(Math.random()*3);let resultado=contexto===0?entrada*2:contexto===1?entrada*3+5:entrada*entrada;return{entrada,contexto,resultado};}}
