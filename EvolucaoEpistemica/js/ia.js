@@ -1,0 +1,1 @@
+class IA{constructor(){this.memoria=[];this.cognicao=new EstruturaCognitiva();this.ciclos=0;}observar(p){this.memoria.push(p);if(this.memoria.length>200)this.memoria.shift();}processar(a){this.ciclos++;if(this.ciclos%50===0)this.cognicao.gerarHipotese();this.cognicao.selecionar(a,this.memoria);}}
