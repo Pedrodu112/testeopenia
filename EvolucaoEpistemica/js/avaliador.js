@@ -1,0 +1,1 @@
+class Avaliador{avaliar(modelo,problemas){let erro=0;for(let p of problemas){erro+=Math.abs(modelo.prever(p)-p.resultado);}modelo.erro=erro;return erro;}}
