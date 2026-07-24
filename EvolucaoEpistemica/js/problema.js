@@ -1,0 +1,1 @@
+class Problema{constructor(evento){this.entrada=evento.entrada;this.contexto=evento.contexto;this.resultado=evento.resultado;}}
